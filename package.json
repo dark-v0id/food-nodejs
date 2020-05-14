@@ -1,0 +1,28 @@
+{
+  "name": "restaurante",
+  "version": "0.0.0",
+  "private": true,
+  "scripts": {
+    "start": "node app.js",
+    "dev": "nodemon app.js"
+  },
+  "dependencies": {
+    "chart.js": "^2.8.0",
+    "connect-redis": "^3.4.1",
+    "cookie-parser": "~1.4.3",
+    "debug": "~2.6.9",
+    "dotenv": "^8.0.0",
+    "ejs": "~2.5.7",
+    "express": "^4.15.2",
+    "express-session": "^1.16.1",
+    "formidable": "^1.2.1",
+    "http-errors": "~1.6.2",
+    "moment": "^2.24.0",
+    "morgan": "~1.9.0",
+    "mysql2": "^1.6.5",
+    "socket.io": "^2.2.0"
+  },
+  "devDependencies": {
+    "nodemon": "^1.19.0"
+  }
+}
